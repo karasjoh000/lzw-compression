@@ -1,0 +1,6 @@
+.vscode
+.DS_Store
+lzwLib/include/.DS_Store
+tests/.DS_Store
+lzwLib/.DS_Store
+.clang_complete
