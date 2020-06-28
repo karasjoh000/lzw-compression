@@ -3,7 +3,7 @@
 # John Karasev
 #
 
-LZWLIB=lzwLib
+LZWLIB=src/lzwLib
 TARFILE=JohnKarasevA1P2
 CFLAGS=-c -g -std=c99 -Wall -pedantic -I$(LZWLIB)/include
 

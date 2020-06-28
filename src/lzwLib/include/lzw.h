@@ -34,16 +34,6 @@
                 values used for encoding.  Otherwise, decoding
                 may fail. Must be >= 8 and <= 24 and >= bits.
 
-     NOTE: In your first version of the LZW assignment, you can
-     ignore the arguments "bits" and "maxBits" and assume that
-     they are both set to 16. In other words, your first
-     implementation will assume that all symbol codes are
-     16 bits (2 bytes) long.  This will simplify your code,
-     particularly the code reading/writing symbol codes (e.g.
-     the BitStream module). However, in the second phase of this
-     assignment variable length codes will be fully implemented,
-     so it would be wise to maintain a design that will support
-     them.
 
     int (*readFunc)(void* context)
                 A pointer to a function, which when passed
